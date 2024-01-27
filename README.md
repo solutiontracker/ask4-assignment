@@ -1,8 +1,8 @@
-### Ask4 assignment using Laravel framework
+# Ask4 assignment using Laravel framework
 
 ## Assignment description
 
-# Relational DB design
+### Relational DB design
 
 Design and build a DB schema in an RDBMS of your choice (from Postgresql, MySql, Sqlite) that can represent networks of devices (e.g. an office computer network) - there are many possible types of network device, but for this test we will only ask you to actually implement two: ethernet switches and servers.
 
@@ -22,7 +22,7 @@ You do not need to write these queries, they are just examples of what should be
 
 Please provide the code and instructions required for us to build a database, along with a very brief human-readable overview of your design.
 
-# Code
+### Code
 
 Using the information stored in this database we are able to automatically log in to a device over its management interface and execute CLI commands remotely.  One of the commands we can execute on any device is to tell it to list its interface configuration.  This provides, in a human readable format, a list of all interfaces on that device along with its detailed configuration.  This information could be useful, for example, for checking that the device configuration in the database is up-to-date.
 
@@ -33,7 +33,7 @@ Write a simple command line script and supporting classes that will take a singl
 * You are not expected to write the actual SSH or telnet code.  Assume the existence of classes `Ask4\Network\SSHClient` and `Ask4\Network\TelnetClient` which implement the interface `Ask4\Network\DeviceClient` we have provided in src.
 
 
-# Implementation
+### Implementation
 
 I have implemented database schema by using Laravel migration, such as
 
